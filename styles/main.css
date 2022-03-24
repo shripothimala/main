@@ -1,0 +1,589 @@
+* {
+  font-family: "Noto Sans";
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 3px 0;
+}
+
+.logoLink {
+  color: #2b5aa8;
+}
+
+.sectionWrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.sectionHeading,
+.featuredSectionHeading {
+  font-family: Courgette;
+  font-size: 24px;
+  color: #2b5aa8;
+  font-weight: 700;
+  margin: 16px 10px;
+  text-shadow: 1px 1px 1px #969696;
+}
+
+.featuredSection {
+  background-color: #f5f5f5;
+}
+
+.colWrapper {
+  display: flex;
+  padding: 30px 0;
+}
+
+.column33 {
+  width: 30%;
+  margin-right: 5%;
+}
+.column33:last-child {
+  margin-right: 0;
+}
+
+.featuredSectionWrapper {
+  width: 1280px;
+  margin: 0 auto 16px;
+  padding: 20px;
+}
+
+.sectionCopyText {
+  color: #2b5aa8;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.fa:before {
+  font-size: 16px;
+}
+
+.readMoreLink {
+  color: #2b5aa8;
+  text-decoration: none;
+  float: right;
+  font-size: 14px;
+}
+.readMoreLink:hover {
+  color: #f5b456;
+}
+
+.twoColumnLayout {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .sectionWrapper,
+.featuredSectionWrapper {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .colWrapper {
+    flex-wrap: wrap;
+  }
+
+  .column33 {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+.pageHeader {
+  color: #2b5aa8;
+  min-height: 100px;
+}
+
+.serviceMenu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.serviceMenuItem {
+  font-size: 14px;
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 10px 0;
+}
+.serviceMenuItem a {
+  color: #2b5aa8;
+  text-decoration: none;
+  font-weight: 700;
+}
+.serviceMenuItem a:hover {
+  color: #f5b456;
+}
+
+.headerContentWrapper {
+  border-bottom: 1px solid #f5b456;
+}
+
+.logoWrapper {
+  position: relative;
+  min-height: 100px;
+}
+
+.logoTitle {
+  font-size: 16px;
+  position: absolute;
+  top: 4px;
+}
+
+.logoMain {
+  font-size: 36px;
+  text-shadow: 1px 1px 3px #969696;
+  display: block;
+  top: 20px;
+  position: absolute;
+}
+
+.logoSubTitle {
+  font-size: 12px;
+  top: 75px;
+  position: absolute;
+}
+
+.nav {
+  background-color: #f5b456;
+  color: #2b5aa8;
+}
+
+.navList {
+  margin: 0 auto;
+  width: 1280px;
+  display: flex;
+  color: #2b5aa8;
+  list-style-type: none;
+}
+
+.navItem .navListItemLink {
+  color: #2b5aa8;
+  margin-right: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 3px 15px 3px 15px;
+  display: inline-block;
+  border-right: 1px solid #2b5aa8;
+  margin: 10px 0;
+}
+.navItem .navListItemLink:hover, .navItem .navListItemLink:focus {
+  background-color: #2b5aa8;
+  color: #f5f5f5;
+}
+.navItem:last-child .navListItemLink {
+  border-right: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .navList {
+    width: 100%;
+    margin: 0 10px;
+  }
+  .navList .donation {
+    display: none;
+  }
+}
+.heroBanner {
+  background: #d6d7db;
+  background: linear-gradient(90deg, #d6d7db 43%, white 100%);
+  border-bottom: 1px solid #2b5aa8;
+}
+.heroBanner .heroBannerContentWrapper {
+  background: #f5f5f5 url("../img/bgHeroBanner.jpg") no-repeat left top;
+  height: 383px;
+  width: 1280px;
+  margin: 0 auto;
+}
+.heroBanner .heroBannerTitle {
+  color: #2b5aa8;
+  font-size: 36px;
+  text-shadow: 1px 1px 3px #969696;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .heroBanner .heroBannerContentWrapper {
+    width: 100%;
+  }
+  .heroBanner .heroBannerTitle {
+    font-size: 24px;
+    width: 80%;
+  }
+}
+.twoColWrapper {
+  display: flex;
+  margin: 40px 0 60px;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+.twoColWrapper .historySection {
+  width: 73%;
+  margin-right: 2%;
+}
+.twoColWrapper .featuredEvents {
+  width: 25%;
+  text-align: center;
+}
+.twoColWrapper .featuredEventsImg {
+  width: 200px;
+  cursor: pointer;
+}
+.twoColWrapper .featuredEventsText {
+  font-size: 12px;
+  color: #2b5aa8;
+  display: block;
+  text-align: center;
+}
+.twoColWrapper .RightColumn {
+  width: 25%;
+  position: relative;
+}
+.twoColWrapper .RightColumn .historyImg {
+  width: 100%;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid #2b5aa8;
+}
+.twoColWrapper .RightColumn .historyImgOne,
+.twoColWrapper .RightColumn .historyImgTwo {
+  width: 40%;
+  position: absolute;
+  top: 260px;
+  border-radius: 50%;
+  border: 2px solid #2b5aa8;
+}
+.twoColWrapper .RightColumn .historyImgTwo {
+  right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .ourHistory .RightColumn {
+    display: none;
+  }
+}
+.swdrList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.swdrList .swdrListItem {
+  position: relative;
+  display: flex;
+  min-height: 127px;
+  width: 30%;
+  margin-bottom: 40px;
+}
+.swdrList .swdrDetails {
+  font-size: 14px;
+  color: #2b5aa8;
+  width: 220px;
+  background-color: #f5b456;
+  border-top-right-radius: 50px 50px;
+  border-bottom-right-radius: 50px 50px;
+  position: absolute;
+  left: 80px;
+  top: 15px;
+  padding: 9px 20px 15px 54px;
+}
+.swdrList .swdrDetails .swdrOwnership {
+  font-size: 12px;
+  display: block;
+}
+.swdrList .swdrDetails .swdrName {
+  font-size: 20px;
+}
+.swdrList .swdrPic {
+  border-radius: 210px;
+  height: 125px;
+  border: 1px solid #666;
+  position: absolute;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .swdrList .swdrListItem {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .swdrList .swdrDetails {
+    width: 160px;
+    top: 10px;
+  }
+}
+.payDetails .subSectionHeading {
+  padding: 5px 0;
+  font-size: 16px;
+}
+.payDetails .bankDetailList {
+  font-size: 14px;
+}
+.payDetails .bankDetailList .bankDetailListItem {
+  list-style-type: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.payDetails .label {
+  font-size: 12px;
+  display: block;
+}
+
+.photoGallery {
+  text-align: center;
+}
+.photoGallery .photoGalleryItem {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.photoGallery .photoGalleryItem img {
+  width: 60%;
+}
+
+.pothimalaGallery .galleryList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pothimalaGallery .galleryList .galleryListItem--width2 {
+  width: 600px;
+}
+.pothimalaGallery .galleryList .galleryListItem {
+  width: 300px;
+  list-style-type: none;
+}
+.pothimalaGallery .galleryList .galleryListItem img {
+  width: 95%;
+  border: 1px solid #333;
+}
+.pothimalaGallery .galleryList .galleryListItem:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+.footer {
+  color: #2b5aa8;
+  padding: 30px 0;
+  border-top: 3px solid #2b5aa8;
+}
+.footer .footerSectionWrapper {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+}
+.footer .footerNavColumn {
+  min-height: 165px;
+  width: 15%;
+  margin-left: 30px;
+}
+.footer .footerSectionHeading {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.footer .footerNavList {
+  display: flex;
+}
+.footer .footerNavListItem {
+  list-style-type: none;
+  margin: 0 20px;
+}
+.footer .footerNavListItemLink {
+  color: #2b5aa8;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.footer .copyrightText {
+  width: 1280px;
+  margin: 0 auto;
+  border-top: 1px solid #2b5aa8;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    font-size: 12px;
+  }
+  .footer .footerSectionWrapper {
+    width: 100%;
+  }
+  .footer .footerSectionWrapper .twoColWrapper {
+    flex-direction: column;
+    font-size: 12px;
+  }
+  .footer .footerSectionWrapper .footerNavListItem {
+    margin: 0 10px;
+  }
+  .footer .footerNavListItemLink {
+    font-size: 13px;
+  }
+}
+.overlayVeil {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  width: 100%;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+
+.overlayVeil.open {
+  display: block;
+}
+
+.overlayContentWrapper {
+  width: 40%;
+  background-color: #fff;
+  margin: 20px auto;
+  min-height: 200px;
+  max-height: calc(100vh - 60px);
+  border-radius: 10px;
+  padding: 20px;
+  color: #2b5aa8;
+  font-size: 14px;
+  position: relative;
+  text-align: center;
+}
+
+.overlayCloseBtn {
+  position: absolute;
+  color: #2b5aa8;
+  text-decoration: none;
+  font-size: 20px;
+  top: 15px;
+  right: 15px;
+}
+
+.fullViewSmagamPic {
+  width: 90%;
+}
+
+.aboutPothimala {
+  font-size: 14px;
+}
+.aboutPothimala .sectionHeading {
+  margin: 40px 0;
+}
+.aboutPothimala .aboutPothimalaWrapper {
+  display: flex;
+}
+.aboutPothimala .aboutPothimalaContent {
+  width: 65%;
+  margin-right: 5%;
+  margin-bottom: 60px;
+}
+.aboutPothimala .aboutPothimalaTree {
+  width: 30%;
+}
+.aboutPothimala h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #2b5aa8;
+  border-bottom: 1px solid #2b5aa8;
+  margin: 20px 0;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.aboutPothimala p {
+  font-size: 12px;
+  padding: 5px 0;
+}
+.aboutPothimala ol {
+  padding-left: 20px;
+}
+.aboutPothimala ol li {
+  font-size: 12px;
+}
+
+.donatePothimala .sectionHeading {
+  margin: 40px 0;
+}
+.donatePothimala .leftColumn {
+  width: 60%;
+  margin-right: 5%;
+  margin-bottom: 60px;
+}
+.donatePothimala .rightColumn {
+  width: 35%;
+  margin-bottom: 60px;
+}
+.donatePothimala .subSectionHeading {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #2b5aa8;
+}
+.donatePothimala .bankDetailList .bankDetailListItem {
+  font-size: 16px;
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+.donatePothimala .bankDetailList .label {
+  display: block;
+  font-size: 12px;
+}
+.donatePothimala .subjectHeading {
+  color: #2b5aa8;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.donatePothimala .subjectDescription,
+.donatePothimala .subjectListItem {
+  color: #2b5aa8;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.donatePothimala .subjectListItem {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.contactPothimala .sectionHeading {
+  margin: 40px 0;
+}
+.contactPothimala .leftColumn {
+  width: 50%;
+  margin-right: 5%;
+  margin-bottom: 60px;
+}
+.contactPothimala .rightColumn {
+  width: 45%;
+  margin-bottom: 60px;
+  padding-right: 20px;
+}
+.contactPothimala .subSectionHeading {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #2b5aa8;
+  display: block;
+}
+.contactPothimala .addressLine {
+  font-size: 14px;
+  color: #2b5aa8;
+  margin-bottom: 5px;
+  display: block;
+}
+.contactPothimala .locationMap {
+  width: 100%;
+  height: 400px;
+}
+.contactPothimala h4 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-style: normal;
+  text-transform: uppercase;
+}
